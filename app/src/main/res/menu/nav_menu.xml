@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_promocao"
+            android:icon="@drawable/icpromocao"
+            android:title="Promoções"/>
+
+        <item
+            android:id="@+id/nav_veiculos"
+            android:icon="@drawable/icveiculos"
+            android:title="Veículos"/>
+
+        <item
+            android:id="@+id/nav_eletrodomesticos"
+            android:icon="@drawable/iceletrodomestico"
+            android:title="Eletrodomésticos"/>
+
+        <item
+            android:id="@+id/nav_esporteefitness"
+            android:icon="@drawable/icesporte"
+            android:title="Esporte e Fitness"/>
+
+        <item
+            android:id="@+id/nav_ferramentas"
+            android:icon="@drawable/icferramentas"
+            android:title="Ferramentas"/>
+
+        <item
+            android:id="@+id/nav_petshop"
+            android:icon="@drawable/icpet"
+            android:title="Pet Shop"/>
+
+
+    </group>
+
+
+</menu>
